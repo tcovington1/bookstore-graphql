@@ -1,0 +1,29 @@
+{
+  user(id: 2) {
+    name
+    email
+    books {
+      title
+      genre
+    }
+  }
+}
+-----------------------
+
+Create a user
+
+mutation {
+	createUser(input: {
+    name: "Taylor Covington",
+    email: "taylor@email.com",
+    favoriteGenre: "educational"
+  }) {
+    user {
+      id,
+      name,
+      email,
+      favoriteGenre
+    }
+    errors
+  }
+}
