@@ -1,0 +1,9 @@
+{
+  "short_name": "ROR + GQL",
+  "name": "React on Rails w/ GraphQL",
+
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
